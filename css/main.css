@@ -1,0 +1,64 @@
+@charset "UTF-8";
+div,p,body,header,footer,section,article,nav 
+{ 
+  /*! margin: 0; */ 
+  padding: 0; 
+} 
+
+img 
+{ 
+  border: none;/
+  margin: 0; 
+  padding: 0; 
+}
+
+
+body 
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+  
+}
+
+a:link, a:visited 
+{ 
+  text-decoration:none;   
+}
+
+a:hover, a:active 
+{ 
+  text-decoration:none; 
+}
+#Container 
+{
+  justify-content:flex-start;
+}
+
+#logoHeader
+{
+ background-color: grey;
+}
+#mainheader {
+    text-align: center;
+}
+#maintext h2 {
+    align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px
+}
+#maintext p {
+  align-content: ;
+  line-height: 25px;
+  font-family: 'Comfortaa', cursive;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
