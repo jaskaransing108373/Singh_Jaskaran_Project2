@@ -19,6 +19,7 @@ body
   font-size: 12px;
   color: #333;
   
+  
 }
 
 a:link, a:visited 
@@ -43,7 +44,7 @@ a:hover, a:active
     text-align: center;
 }
 #maintext h2 {
-    align-content: space-between;
+    
     line-height: 30px;
     letter-spacing: 2px;
     padding-left: 40px;
@@ -51,7 +52,7 @@ a:hover, a:active
   font-size: 30px
 }
 #maintext p {
-  align-content: ;
+  align-content: space-between;
   line-height: 25px;
   font-family: 'Comfortaa', cursive;
   padding-right: 40px;
@@ -61,4 +62,101 @@ a:hover, a:active
 img.center {
     display: block;
     margin: 0 auto;
+}
+#about {
+justify-content:flex-start;
+}
+#about h2 {
+  align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px
+   
+}
+#about p {
+  align-content: space-between;
+  line-height: 25px;
+  font-family: 'Comfortaa', cursive;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+#ourbeer {
+
+  line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+#imagesAndText {
+  align-items: : flex-start;
+}
+#imagesAndText {
+  justify-content: center;
+}
+#imagesAndText img {
+  align-items: flex-start;
+  padding-block: 20px;
+  padding-left: 40px;
+
+
+}
+
+#imagesAndText ul {
+  align-items: flex-start;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  padding-left: 60px;
+}
+
+#values {
+  align-items: flex-start;
+
+}
+#values h2 {
+  align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px;
+}
+#values h3 {
+  align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px
+}
+#values p {
+  align-content: space-between;
+  line-height: 15px;
+  font-family: 'Comfortaa', cursive;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 14px;
+
+}
+#contact h2 {
+  align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 22px;
+  padding-top: 40px;
+}
+#contact p {
+align-content: space-between;
+  line-height: 25px;
+  font-family: 'Gupter', serif;
+  padding-right: 500px;
+  padding-left: 40px;
+  font-size: 20px;
+  padding-bottom: 40px;
 }
